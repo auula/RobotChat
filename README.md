@@ -3,12 +3,11 @@
 [example web](http://robot.codegc.me "robot")
 
 ## Example
-
-![dome](https://s2.ax1x.com/2019/03/16/AZSKQU.png)
-
+![avatar](http://baidu.com/pic/doge.png)
 
 ## Run Command
-### maven package
+
 ```bash
-java -jar xxxx.jar 
+ maven package
+ java -jar xxxx.jar 
 ```
