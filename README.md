@@ -3,7 +3,7 @@
 [example web](http://robot.codegc.me "robot")
 
 ## Example
-![avatar](https://s2.ax1x.com/2019/03/16/AZSKQU.png)
+![avatar](./Jietu20190316-162557.jpg)
 
 ## Run Command
 
