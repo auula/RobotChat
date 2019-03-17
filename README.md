@@ -1,5 +1,6 @@
 # This is use Java☕️ developer  `Chat Robot 🤖`
 一个使用Java基于免费的机器人聊天API开发的聊天网站🙃
+A chat site developed using Java based on the free robot chat API 😎
 [example web](http://robot.codegc.me "robot")
 
 ## Example
