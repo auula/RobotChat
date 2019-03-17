@@ -10,7 +10,7 @@
     </parent>
     <groupId>me.codegc.robot</groupId>
     <artifactId>robot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.2.1-SNAPSHOT</version>
     <name>Robot</name>
     <description>Demo project for Spring Boot</description>
 
