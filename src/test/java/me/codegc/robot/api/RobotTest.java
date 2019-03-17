@@ -18,7 +18,7 @@ public class RobotTest {
 
     @Test
     public void  test1(){
-        Robot.init();
+//        Robot.init();
         System.out.println(Robot.Chat("我有女朋友了"));
     }
 
