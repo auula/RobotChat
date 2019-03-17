@@ -32,13 +32,13 @@ public class Robot {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    private static Robot robot = null;
-
-    public static void init() {
-        if (robot == null) {
-            robot = new Robot();
-        }
-    }
+//    private static Robot robot = null;
+//
+//    public static void init() {
+//        if (robot == null) {
+//            robot = new Robot();
+//        }
+//    }
 
     /**
      * 更新了调用接口
@@ -46,7 +46,7 @@ public class Robot {
      * @return
      */
     public static String Chat(String mess) {
-        return JSONObject.parseObject(HttpRequestClient.init().sendRequest(mess, Robot.key), Map.class).get("content").toString();
+        return JSONObject.parseObject(HttpRequestClient.init().sendRequest(mess, Robot.key), Map.class).get("text").toString();
     }
 
 
