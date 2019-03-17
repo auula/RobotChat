@@ -26,7 +26,6 @@ public class RobotChatAPI {
 
     @GetMapping("/api")
     public String api(@RequestParam String mess){
-        Robot.init();
         //先加加优化前端数据准确性
         ++this.count;
         return Robot.Chat(mess);
