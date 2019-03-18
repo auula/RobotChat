@@ -21,7 +21,7 @@ public class RobotChatAPI {
 
     @GetMapping("/count")
     public String chatCount(){
-        return this.count.toString();
+        return count.toString();
     }
 
     @GetMapping("/api")
