@@ -15,15 +15,13 @@ import java.net.URLEncoder;
 import java.util.Map;
 
 /**
- * ==========================
- * Created by IntelliJ IDEA.
+ * ========================== Created by IntelliJ IDEA.
  *
- * @email：coding1618@gmail.com
- * @version：1.0
+ * @email：coding1618@gmail.com @version：2.3
  * @author: Ding / 2019-03-15 11:12
  * @TODO: 机器人类
- * <p>
- * ==========================
+ *        <p>
+ *        ==========================
  */
 @Slf4j
 public class Robot {
@@ -32,22 +30,23 @@ public class Robot {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-//    private static Robot robot = null;
-//
-//    public static void init() {
-//        if (robot == null) {
-//            robot = new Robot();
-//        }
-//    }
+    // private static Robot robot = null;
+    //
+    // public static void init() {
+    // if (robot == null) {
+    // robot = new Robot();
+    // }
+    // }
 
     /**
      * 更新了调用接口
+     * 
      * @param mess
      * @return
      */
     public static String Chat(String mess) {
-        return JSONObject.parseObject(HttpRequestClient.init().sendRequest(mess, Robot.key), Map.class).get("text").toString();
+        return JSONObject.parseObject(HttpRequestClient.init().sendRequest(mess, Robot.key), Map.class).get("text")
+                .toString();
     }
-
 
 }
